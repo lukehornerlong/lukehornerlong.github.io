@@ -359,7 +359,7 @@ footer.sticky-bottom {
 
   .card {
     background-color: var(--global-card-bg-color);
-    color: var(--global-text-color);
+    color: var(--global-card-text-colour);
     border: 1px solid var(--global-divider-color);
 
     .list-group-item {
@@ -368,7 +368,7 @@ footer.sticky-bottom {
 
       .badge {
         color: var(--global-card-bg-color) !important;
-        background-color: var(--global-theme-color) !important;
+        background-color: var(--global-card-text-colour) !important;
       }
     }
   }
