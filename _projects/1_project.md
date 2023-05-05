@@ -4,7 +4,7 @@ title: Scran
 description: a university team project, creating a food based social media targeted at young people
 img: assets/img/scran.png
 importance: 1
-category: Uni
+category: uni
 ---
 
 Every project has a beautiful feature showcase page.
