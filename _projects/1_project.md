@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Scran
+description: a university team project, creating a food based social media targeted at young people
+img: assets/img/scran.png
 importance: 1
 category: work
 ---
