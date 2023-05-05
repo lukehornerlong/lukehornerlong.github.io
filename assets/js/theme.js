@@ -1,6 +1,9 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
 let toggleTheme = (theme) => {
+  if (!localStorage.getItem('theme')) {
+    localStorage.setItem('theme', 'light');
+  }
   if (theme == "dark") {
     setTheme("light");
   } else {
