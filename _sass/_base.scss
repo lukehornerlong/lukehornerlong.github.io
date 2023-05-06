@@ -159,6 +159,39 @@ blockquote {
   }
 }
 
+//mallard
+#mallard-container {
+  position: fixed;
+  top: 0vh; /* Start off the screen */
+  left: -210px; /* Start off the screen */
+  z-index: 9999;
+  pointer-events: none; /* Prevent the mallard from blocking mouse events */
+}
+
+#mallard {
+  width: 300px;
+  visibility: hidden;
+
+}
+
+/* Define the animation */
+@keyframes fly {
+  0% {
+    transform: translate(0px , calc(var(--random-y) * 80vh));
+  }
+  100% {
+    transform: translate(120vw, calc(var(--random-y) * 80vh));
+  }
+}
+
+/* Apply the animation to the element */
+#mallard.animated {
+  visibility: visible;
+  animation-name: fly;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
 
 // Navbar customization
 
@@ -374,7 +407,8 @@ footer.sticky-bottom {
   }
 }
 a.text-link{
-  color: var(--cv-card-text-colour);
+  color: blue;
+
 }
 a.text-link:hover {
   color: blue;

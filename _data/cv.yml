@@ -15,12 +15,21 @@
       institution: University of Birmingham, West Midlands, United Kingdom
       year: 2021-Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: 1st Year
+          year: 2021-22
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - Full Stack Application Development | 100%
+            - Object Oriented Programming | 94%
+            - Theories of Computation | 45%
+            - Data Structure and Algorithms | 41%
+            - Artificial Intelligence 1 | 40%
+            - Mathematical and Logical Foundations of Computer Science | 41%
+        - title: 2nd Year
+          year: 2022-23
+          contents:
+            - Team Project | 66% | <a href="https://lukehornerlong.live/projects/1_project/"class = "text-link">Project Link</a>
+            - Operating Systems and Systems Programming | 54% | 78% in end of module exam
+
     - title: A levels
       institution: St John's school, Leatherhead, Surrey, United Kingdom
       year: 2019-2021
@@ -89,18 +98,18 @@
   type: time_table
   contents:
     - year: 1921
-      items: 
-        - Nobel Prize in Physics 
+      items:
+        - Nobel Prize in Physics
         - Matteucci Medal
     - year: 2029
-      items: 
+      items:
         - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Topic 1.
-      items: 
+      items:
         - Description 1.
         - Description 2.
     - title: Topic 2.
