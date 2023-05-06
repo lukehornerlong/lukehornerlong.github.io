@@ -192,7 +192,16 @@ blockquote {
   animation-iteration-count: infinite;
   animation-timing-function: ease-out;
 }
+@media (max-width: 768px) {
+  #mallard {
+    width: 100px;
+  }
+}
 
+  /* Reduce the animation duration */
+  #mallard.animated {
+    animation-duration: 4s;
+  }
 // Navbar customization
 
 .navbar {
