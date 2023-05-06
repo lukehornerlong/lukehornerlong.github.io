@@ -23,7 +23,7 @@ window.addEventListener('load', function() {
             } else {
                 mallard.classList.remove('animated');
             }
-        }, 6000); // 8 seconds to match the animation duration
+        }, 7000); // 8 seconds to match the animation duration
 
     }, Math.random() * 5000 + 5000);
 });
