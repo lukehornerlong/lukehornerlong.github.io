@@ -1,8 +1,8 @@
-<table class="table table-sm table-borderless table-responsive"style="background-color: var(--global-card-bg-color);color: var(--global-card-text-colour)">
+<table class="table table-sm table-borderless table-responsive"style="background-color: var(--cv-card-bg-color);color: var(--cv-card-text-colour)">
     {% for content in entry.contents %}
       <tr>
-        <td class="p-1 pr-2 font-weight-bold"style="color: var(--global-card-text-colour);"><b>{{ content.name }}</b></td>
-        <td class="p-1 pl-2 font-weight-light text"style="color: var(--global-card-text-colour);">{{ content.value }}</td>
+        <td class="p-1 pr-2 font-weight-bold"style="color: var(--cv-card-text-colour);"><b>{{ content.name }}</b></td>
+        <td class="p-1 pl-2 font-weight-light text"style="color: var(--cv-card-text-colour);">{{ content.value }}</td>
       </tr>
     {% endfor %}
 </table>

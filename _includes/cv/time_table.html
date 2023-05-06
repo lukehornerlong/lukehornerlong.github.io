@@ -1,52 +1,52 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
     {% for content in entry.contents %}
-      <li class="list-group-item"style="color: var(--global-card-text-colour)">
-        <div class="row"style="color: var(--global-card-text-colour)">
+      <li class="list-group-item"style="color: var(--cv-card-text-colour)">
+        <div class="row"style="color: var(--cv-card-text-colour)">
           {% if content.year %}
-            <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;color: var(--global-card-text-colour)">
+            <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;color: var(--cv-card-text-colour)">
               <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
                 {{ content.year }}
               </span>
             </div>
           {% endif %}
-          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0"style="color: var(--global-card-text-colour)">
+          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0"style="color: var(--cv-card-text-colour)">
             {% if content.title %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4"style="color: var(--global-card-text-colour)">{{content.title}}</h6>
+            <h6 class="title font-weight-bold ml-1 ml-md-4"style="color: var(--cv-card-text-colour)">{{content.title}}</h6>
             {% endif %}
             {% if content.institution %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;color: var(--global-card-text-colour)">{{content.institution}}</h6>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;color: var(--cv-card-text-colour)">{{content.institution}}</h6>
             {% endif %}
             {% if content.description %}
-              <ul class="items"style="color: var(--global-card-text-colour)">
+              <ul class="items"style="color: var(--cv-card-text-colour)">
                 {% for item in content.description %}
-                  <li style="color: var(--global-card-text-colour)">
+                  <li style="color: var(--cv-card-text-colour)">
                     {% if item.contents %}
-                      <span class="item-title"style="color: var(--global-card-text-colour)">{{ item.title }}</span>
-                      <ul class="subitems"style="color: var(--global-card-text-colour);">
+                      <span class="item-title"style="color: var(--cv-card-text-colour)">{{ item.title }}</span>
+                      <ul class="subitems"style="color: var(--cv-card-text-colour);">
                       {% for subitem in item.contents %}
-                        <li style="color: var(--global-card-text-colour)"><span class="subitem"style="color: var(--global-card-text-colour)">{{ subitem }}</span></li>
+                        <li style="color: var(--cv-card-text-colour)"><span class="subitem"style="color: var(--cv-card-text-colour)">{{ subitem }}</span></li>
                       {% endfor %}
                       </ul>
                     {% else %}
-                      <span class="item"style="color: var(--global-card-text-colour)">{{ item }}</span>
+                      <span class="item"style="color: var(--cv-card-text-colour)">{{ item }}</span>
                     {% endif %}
                   </li>
                 {% endfor %}
               </ul>
             {% endif %}
             {% if content.items %}
-              <ul class="items"style="color: var(--global-card-text-colour)">
+              <ul class="items"style="color: var(--cv-card-text-colour)">
                 {% for item in content.items %}
-                  <li style="color: var(--global-card-text-colour)">
+                  <li style="color: var(--cv-card-text-colour)">
                     {% if item.contents %}
-                      <span class="item-title"style="color: var(--global-card-text-colour)">{{ item.title }}</span>
-                      <ul class="subitems"style="color: var(--global-card-text-colour)">
+                      <span class="item-title"style="color: var(--cv-card-text-colour)">{{ item.title }}</span>
+                      <ul class="subitems"style="color: var(--cv-card-text-colour)">
                       {% for subitem in item.contents %}
-                        <li style="color: var(--global-card-text-colour)"><span class="subitem"style="color: var(--global-card-text-colour)">{{ subitem }}</span></li>
+                        <li style="color: var(--cv-card-text-colour)"><span class="subitem"style="color: var(--cv-card-text-colour)">{{ subitem }}</span></li>
                       {% endfor %}
                       </ul>
                     {% else %}
-                      <span class="item"style="color: var(--global-card-text-colour)">{{ item }}</span>
+                      <span class="item"style="color: var(--cv-card-text-colour)">{{ item }}</span>
                     {% endif %}
                   </li>
                 {% endfor %}

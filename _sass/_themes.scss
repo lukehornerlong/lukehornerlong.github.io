@@ -16,8 +16,10 @@
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0,0,0,.1);
-  --global-card-bg-color: #{$green-color-dark};
-  --global-card-text-colour: #{$white-color};
+  --global-card-bg-color: #{$whiteoff-color};
+  --global-card-text-colour: #{$blackoff-color};
+  --cv-card-bg-color: #{$green-color-dark};
+  --cv-card-text-colour: #{$white-color};
 
 
   .fa-sun {
@@ -51,9 +53,10 @@ html[data-theme='dark'] {
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
-  --global-card-bg-color: #{$pink-color-light};
-  --global-card-text-colour: #{$black-color};
-
+  --global-card-bg-color: #{$blackoff-color};
+  --global-card-text-colour: #{$whiteoff-color};
+  --cv-card-bg-color: #{$pink-color-light};
+  --cv-card-text-colour: #{$black-color};
   .fa-sun {
     padding-left: 10px;
     padding-top: 12px;

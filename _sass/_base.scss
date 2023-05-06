@@ -358,8 +358,8 @@ footer.sticky-bottom {
   margin-bottom: 40px;
 
   .card {
-    background-color: var(--global-card-bg-color);
-    color: var(--global-card-text-colour);
+    background-color: var(--cv-card-bg-color);
+    color: var(--cv-card-text-colour);
     border: 1px solid var(--global-divider-color);
 
     .list-group-item {
@@ -367,13 +367,20 @@ footer.sticky-bottom {
       border-color: var(--global-divider-color);
 
       .badge {
-        color: var(--global-card-bg-color) !important;
-        background-color: var(--global-card-text-colour) !important;
+        color: var(--cv-card-bg-color) !important;
+        background-color: var(--cv-card-text-colour) !important;
       }
     }
   }
 }
+a.text-link{
+  color: var(--cv-card-text-colour);
+}
+a.text-link:hover {
+  color: blue;
+  font-size: 1.5em; /* increase the font size by 10% */
 
+}
 // Repositories
 
 @media (min-width: 768px) {

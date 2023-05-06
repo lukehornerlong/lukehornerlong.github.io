@@ -1,11 +1,11 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
     {% for content in entry.contents %}
-      <li class="list-group-item"style="color: var(--global-card-text-colour)">
-      <h5 class="font-italic"style="color: var(--global-card-text-colour)">{{ content.title }}</h5>
+      <li class="list-group-item"style="color: var(--cv-card-text-colour)">
+      <h5 class="font-italic"style="color: var(--cv-card-text-colour)">{{ content.title }}</h5>
       {% if content.items %}
-        <ul class="subitems"style="color: var(--global-card-text-colour)">
+        <ul class="subitems"style="color: var(--cv-card-text-colour)">
           {% for subitem in content.items %}
-            <li style="color: var(--global-card-text-colour)"><span class="subitem"style="color: var(--global-card-text-colour)">{{ subitem }}</span></li>
+            <li style="color: var(--cv-card-text-colour)"><span class="subitem"style="color: var(--cv-card-text-colour)">{{ subitem }}</span></li>
           {% endfor %}
         </ul>
       {% endif %}

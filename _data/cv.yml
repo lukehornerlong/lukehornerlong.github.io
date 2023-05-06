@@ -81,8 +81,8 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
+    - title: <a href="https://github.com/lukehornerlong/lukehornerlong.github.io"class = "text-link">This Website</a>
+      year: 2023-present
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
