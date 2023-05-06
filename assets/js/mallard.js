@@ -1,6 +1,12 @@
 // Wait for the page to load
+const mallard = document.getElementById('mallard');
+// Listen for the pageshow event
 window.addEventListener('load', function() {
     console.log("mallard script running");
+    if(!sessionStorage.getItem('firstLoad')) {
+        sessionStorage.setItem('firstLoad', true);
+        location.reload();
+    }
 
     // Get the mallard element and its container
     var mallardContainer = document.getElementById('mallard-container');
