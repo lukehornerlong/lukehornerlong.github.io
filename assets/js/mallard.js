@@ -10,10 +10,13 @@ window.addEventListener('load', function() {
     var animationDuration = 8;
 
     // Function to check if the mallard container is off-screen
+    // Function to check if the mallard container is off-screen
     function isOffScreen(element) {
         var rect = element.getBoundingClientRect();
-        return rect.right < 0 || rect.left > window.innerWidth || rect.bottom < 0 || rect.top > window.innerHeight;
+        var screenWidth = window.screen.width;
+        return rect.right < -50 || rect.left > screenWidth + 50 || rect.bottom < 0 || rect.top > window.innerHeight;
     }
+
 
     // Function to start a new animation
     function startAnimation() {

@@ -180,7 +180,7 @@ blockquote {
     transform: translate(0px , calc(var(--random-y) * 80vh));
   }
   100% {
-    transform: translate(120vw, calc(var(--random-y) * 80vh));
+    transform: translate(150vw, calc(var(--random-y) * 80vh));
   }
 }
 
@@ -192,16 +192,17 @@ blockquote {
   animation-iteration-count: infinite;
   animation-timing-function: ease-out;
 }
-@media (max-width: 768px) {
-  #mallard {
-    width: 100px;
-  }
-}
+
 
   /* Reduce the animation duration */
   #mallard.animated {
     animation-duration: 4s;
   }
+@media screen and (max-width: 767px) {
+  #mallard {
+    width: 100px;
+  }
+}
 // Navbar customization
 
 .navbar {
