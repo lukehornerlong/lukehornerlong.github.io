@@ -162,7 +162,7 @@ blockquote {
 //mallard
 #mallard-container {
   position: fixed;
-  top: 50vh; /* Start in the middle of the screen */
+  top: 0vh; /* Start off the screen */
   left: -210px; /* Start off the screen */
   z-index: 9999;
   pointer-events: none; /* Prevent the mallard from blocking mouse events */
@@ -171,15 +171,16 @@ blockquote {
 #mallard {
   width: 300px;
   visibility: hidden;
+
 }
 
 /* Define the animation */
 @keyframes fly {
   0% {
-    transform: translate3d(0px , calc(var(--random-y) * 80vh), 0);
+    transform: translate(0px , calc(var(--random-y) * 80vh));
   }
   100% {
-    transform: translate3d(150vw, calc(var(--random-y) * 80vh), 0);
+    transform: translate(150vw, calc(var(--random-y) * 80vh));
   }
 }
 
@@ -192,16 +193,16 @@ blockquote {
   animation-timing-function: ease-out;
 }
 
-/* Reduce the animation duration */
+
+  /* Reduce the animation duration */
+  #mallard.animated {
+    animation-duration: 4s;
+  }
 @media screen and (max-width: 767px) {
   #mallard {
     width: 100px;
   }
-  #mallard.animated {
-    animation-duration: 4s;
-  }
 }
-
 // Navbar customization
 
 .navbar {
