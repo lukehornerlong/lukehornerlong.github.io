@@ -7,19 +7,30 @@ importance: 1
 category: uni
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This Project was created as part of my university 'Team Project' module. The module description was:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Team Project teaches Agile Development Practices by doing. This is the most industry-relevant module
+you will take. Teams will produce a full-stack web-application, using industry-standard development
+techniques (Kanban, CI/CD, code reviews, etc.). Some tasks are submitted individually and peer-assessed
+by the team
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+We all came up with ideas on what to develop into a webapp mine being the idea that was chosen:
 
+## Student Food Shop Reviews
+
+-   App where people can input certain items from a variety of shops (e.g. pulled pork from aldi)
+
+-   They can then review it and say what they made with it upload all the macros etc
+
+-   Help people spot sales in local shops etc
+
+-   Gradually build up a large database of lots of different food items
+
+-   App would then suggest people foods based on their preferences (affordability, taste, halal etc)
+
+-   Acts almost like a social networking tool for students trying to have a healthy but affordable diet
+
+-   Offer discounts in shops as incentive for leaving enough reviews and making posts
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -40,7 +51,7 @@ To give your project a background in the portfolio page, just add the img tag to
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Concept video and WebApp Demo
 </div>
 
 You can also put regular text between your rows of images.
