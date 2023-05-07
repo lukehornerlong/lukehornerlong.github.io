@@ -35,7 +35,7 @@ To give your project a background in the portfolio page, just add the img tag to
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0" style="text-align: center">
         <video src="https://lukehornerlong.live/assets/videos/T18P04-app-demo.mp4" width="640" height="360" controls></video>
     </div>
 </div>
