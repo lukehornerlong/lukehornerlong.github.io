@@ -36,7 +36,7 @@ To give your project a background in the portfolio page, just add the img tag to
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <video src="https://lukehornerlong.live/assets/videos/T18P04-app-demo.mp4" width="640" height="360" controls></video>
     </div>
 </div>
 <div class="caption">
