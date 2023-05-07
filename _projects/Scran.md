@@ -16,7 +16,7 @@ by the team
 
 We all came up with ideas on what to develop into a webapp mine being the idea that was chosen:
 
-## Student Food Shop Reviews
+### Student Food Shop Reviews
 
 -   App where people can input certain items from a variety of shops (e.g. pulled pork from aldi)
 
