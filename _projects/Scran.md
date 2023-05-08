@@ -33,10 +33,10 @@ We all came up with ideas on what to develop into a webapp mine being the idea t
 -   Offer discounts in shops as incentive for leaving enough reviews and making posts
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/TeamProjectS1Final1024_1.jpg" title="example image" class="img-fluid rounded z-depth-1 fancybox" data-fancybox="gallery" %}
+        {% include figure.html path="assets/img/TeamProjectS1Final1024_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/TeamProjectS1Final1024_4.jpg" title="example image" class="img-fluid rounded z-depth-1 fancybox" data-fancybox="gallery" %}
+        {% include figure.html path="assets/img/TeamProjectS1Final1024_4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
