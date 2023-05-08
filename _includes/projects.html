@@ -1,4 +1,6 @@
 <!-- _includes/projects.html -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 <div class="grid-sizer"></div>
 <div class="grid-item">
   {% if project.redirect -%}
@@ -33,4 +35,12 @@
         </div>
       </div>
     </a>
+  </a>
 </div>
+<script>
+  $(document).ready(function() {
+    $(".fancybox").fancybox({
+      // Customize the lightbox settings here
+    });
+  });
+</script>
