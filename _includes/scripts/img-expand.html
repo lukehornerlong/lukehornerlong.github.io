@@ -1,0 +1,27 @@
+{% if site.enable_imgExpand %}
+
+<!-- Image Expander -->
+<script type="text/javascript">
+    console.log("Image Expander Enabled");
+    images = document.getElementsByClassName("expandable");
+
+    for (image of images) {
+        image.addEventListener("click", function() {
+            var modal = document.createElement("dialog");
+            modal.addEventListener("click", function() {
+                this.remove();
+            });
+
+            var img = document.createElement("img");
+            img.src = this.src;
+            img.style.maxHeight = "95%";
+
+            modal.appendChild(img);
+            document.body.appendChild(modal);
+            modal.showModal();
+                
+        });
+    }
+</script>
+
+{%- endif %}
