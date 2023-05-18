@@ -417,11 +417,12 @@ footer.sticky-bottom {
   }
 }
 a.text-link{
-  color: blue;
+  color: (invert(var(--global-hover-color)));
+  text-decoration: underline;
 
 }
 a.text-link:hover {
-  color: blue;
+  color: (invert(var(--global-hover-color)));
   font-size: 1.5em; /* increase the font size by 10% */
 
 }

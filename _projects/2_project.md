@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Hastings Direct - Technology Case Study
+description: Hastings.jpg Direct assessment centre password generation project
+img: assets/img/Hastings.jpg
 importance: 2
 category: work
 ---

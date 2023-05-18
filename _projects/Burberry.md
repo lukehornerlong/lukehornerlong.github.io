@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: Burberry Data Science
+description: A research project conducted as part of the burberry assesment centre
+img: assets/img/Burberrypreview.jpg
+importance: 1
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

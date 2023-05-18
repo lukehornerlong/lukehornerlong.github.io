@@ -62,7 +62,7 @@
   type: time_table
   contents:
     - title: Digital and change intern
-      institution: Hastings Direct
+      institution: Hastings.jpg Direct
       year: Summer 2022
       description:
         - Supported automation team and learnt how to navigate framework whilst developing automated
@@ -74,7 +74,7 @@
         - Involved in Development Operations, use of APIs, Pipeline and Octane to manage own tasks.
         - Delivered, projected and presented to Digital and Change Senior leadership team on benefits of
           automation to improve their team ways of working and improvements for internship programmes.
-        - Connected Hastings Direct with the University Of Birmingham to set up sponsorship for the University Rugby tour to SA and to enable Hastings to help promote their new internship scheme
+        - Connected Hastings.jpg Direct with the University Of Birmingham to set up sponsorship for the University Rugby tour to SA and to enable Hastings.jpg to help promote their new internship scheme
 
     - title: Progression mentor
       institution: University of Birmingham outreach program
@@ -149,20 +149,3 @@
       instituation: Downsend School, Leatherhead
       items:
         - ICT award, Downsend School, Leatherhead
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

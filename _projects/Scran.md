@@ -31,7 +31,8 @@ We all came up with ideas on what to develop into a webapp mine being the idea t
 -   Acts almost like a social networking tool for students trying to have a healthy but affordable diet
 
 -   Offer discounts in shops as incentive for leaving enough reviews and making posts
-<div class="row justify-content-sm-center">
+
+<div style="margin-top: 5vh;" class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/img/TeamProjectS1Final1024_1.jpg" title="Mockup" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -39,7 +40,7 @@ We all came up with ideas on what to develop into a webapp mine being the idea t
         {% include figure.html path="assets/img/TeamProjectS1Final1024_4.jpg" title="Persona" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption" style="margin-bottom: 5vh;">
     Above is the mockup and persona I made as part of the project (click on them to make them bigger)
 </div>
 <div class="row">
@@ -60,5 +61,5 @@ I also completed a tech report on the importance of dev ops within the team to c
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    finished home page
 </div>
