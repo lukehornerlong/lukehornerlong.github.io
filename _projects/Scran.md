@@ -33,10 +33,10 @@ We all came up with ideas on what to develop into a webapp mine being the idea t
 -   Offer discounts in shops as incentive for leaving enough reviews and making posts
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/TeamProjectS1Final1024_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/TeamProjectS1Final1024_1.jpg" title="Mockup" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/TeamProjectS1Final1024_4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/TeamProjectS1Final1024_4.jpg" title="Persona" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -51,12 +51,12 @@ We all came up with ideas on what to develop into a webapp mine being the idea t
     Concept video and WebApp Demo
 </div>
 
-We decided on the project 'SCRAN'. This was to be a social media targeted at young people and students to share their simple recipies. As a team we broke the work down into vertical slices. I took the <a href="https://lukehornerlong.live/assets/pdf/s3 tech report - LukeHornerLong.pdf" class = "text-link">pantry</a> feature as well as assisting with a lot of the front end development of the project.
+We decided on the project 'SCRAN'. This was to be a social media targeted at young people and students to share their simple recipies. As a team we broke the work down into vertical slices. I took the <a href="https://lukehornerlong.live/assets/pdf/s3techreport.pdf" class = "text-link">pantry</a> feature as well as assisting with a lot of the front end development of the project.
 I also completed a tech report on the importance of dev ops within the team to confirm a high quality of project.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/scran.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/scran.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
