@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hastings Direct - Technology Case Study
-description: Hastings.jpg Direct assessment centre password generation project
+description: Hastings Direct assessment centre password generation project
 img: assets/img/Hastings.jpg
 importance: 2
 category: work
