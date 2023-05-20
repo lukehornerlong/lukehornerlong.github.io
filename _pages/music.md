@@ -3,7 +3,7 @@ layout: page
 permalink: /music/
 title: music
 description: My page to share and discuss Music
-nav: true
+nav: false
 nav_order: 5
 ---
 
